@@ -70,6 +70,14 @@ img {
     text-align: center;
 }
 
+/*Degradados*/
+.degradado-verde {
+    color: transparent;
+    background: linear-gradient(to rigth, var(--primario) 0%, var(--secundario) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
 
 /*HEADER*/
 
@@ -86,7 +94,7 @@ img {
     }
 }
 
-/* Texto header */ 
+/* Texto header */
 
 
 .texto-header {
@@ -123,7 +131,8 @@ img {
     .nombre-producto {
         font-size: 10rem;
         margin: 0;
-        line-height: 1; /* Quita el interlienado y deja el del texto*/
+        line-height: 1;
+        /* Quita el interlienado y deja el del texto*/
     }
 }
 
@@ -131,4 +140,3 @@ img {
     font-size: 6rem;
     font-weight: 900;
 }
-
