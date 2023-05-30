@@ -86,14 +86,21 @@ img {
     }
 }
 
+/* Texto header */ 
+
 
 .texto-header {
     text-align: center;
+    padding-top: var(--separacion);
 }
 
 @media (min-width: 768px) {
     .texto-header {
         text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
     }
 }
 
